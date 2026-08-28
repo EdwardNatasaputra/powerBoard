@@ -3863,7 +3863,8 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 71.12 68.58 90)
+		(at 71.12 68.58 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
