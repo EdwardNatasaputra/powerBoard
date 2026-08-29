@@ -7262,7 +7262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal"
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 204.47 67.31 0)
 			(hide yes)
 			(show_name no)
