@@ -2269,6 +2269,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 237.49) (xy 57.15 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427bb840-07e9-4b75-ac9b-ed8b702ecc4f")
+	)
+	(wire
+		(pts
 			(xy 176.53 109.22) (xy 179.07 109.22)
 		)
 		(stroke
@@ -2529,6 +2539,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 240.03) (xy 57.15 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5eb144-a360-40c7-bee7-feefeb09e456")
+	)
+	(wire
+		(pts
 			(xy 175.26 53.34) (xy 175.26 111.76)
 		)
 		(stroke
@@ -2566,6 +2586,16 @@
 			(type default)
 		)
 		(uuid "a33096c6-fbe8-4afb-955a-6f4b266e2e86")
+	)
+	(wire
+		(pts
+			(xy 43.18 242.57) (xy 48.26 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a373becb-c354-478b-b093-e1bad0c43e42")
 	)
 	(wire
 		(pts
@@ -2846,6 +2876,16 @@
 			(justify left bottom)
 		)
 		(uuid "16190c89-d463-469c-a52e-f84ea2437420")
+	)
+	(label "5VDC"
+		(at 48.26 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "360855b2-4ce3-4110-b742-04da72444bf2")
 	)
 	(label "24VDC"
 		(at 99.06 57.15 180)

@@ -4232,6 +4232,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 111.76) (xy 151.13 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949d8340-ffd3-443a-bd53-90e7c9f5ae37")
+	)
+	(wire
+		(pts
 			(xy 25.4 67.31) (xy 25.4 87.63)
 		)
 		(stroke
@@ -4349,16 +4359,6 @@
 			(type default)
 		)
 		(uuid "9c1e7b0e-5b11-4565-a985-e0ba446febe3")
-	)
-	(wire
-		(pts
-			(xy 151.13 119.38) (xy 151.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2c40c3-6cbc-4783-944b-8f028d2ddd2d")
 	)
 	(wire
 		(pts
@@ -7587,7 +7587,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 107.95 180)
+		(at 171.45 107.95 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7597,7 +7598,7 @@
 		(dnp no)
 		(uuid "a10514e7-db21-4f03-8c7e-ac2d1c281616")
 		(property "Reference" "C39"
-			(at 169.164 107.188 0)
+			(at 173.736 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7608,7 +7609,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 169.164 108.712 0)
+			(at 173.736 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7619,7 +7620,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 170.4848 104.14 0)
+			(at 172.4152 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
