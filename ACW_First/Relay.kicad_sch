@@ -2925,95 +2925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:PC817")
-		(at 115.57 90.17 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1bf5bac0-81ff-47e9-a26e-5c1bf1a9e9d8")
-		(property "Reference" "U4"
-			(at 115.57 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PC817"
-			(at 115.57 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Library:SOP254P975X460-4N"
-			(at 110.49 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
-			(at 115.57 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
-			(at 115.57 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ed07e9b-bdb8-443f-9dd5-1d40d4c91cc8")
-		)
-		(pin "4"
-			(uuid "6da1ebf8-c9d6-4878-89c0-3fe464c5c1ee")
-		)
-		(pin "3"
-			(uuid "162068ec-6b2d-4aa3-b7c0-bfc067255b5a")
-		)
-		(pin "2"
-			(uuid "88c37fda-f594-4390-93c0-725e21de62ee")
-		)
-		(instances
-			(project "ACW_First"
-				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 143.51 71.12 180)
 		(unit 1)
@@ -3985,6 +3896,95 @@
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:PC817")
+		(at 115.57 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0350eb0-c826-4b05-8147-e95c06db978f")
+		(property "Reference" "U1"
+			(at 115.57 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC817"
+			(at 115.57 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Library:SOP254P975X460-4N"
+			(at 110.49 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+			(at 115.57 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+			(at 115.57 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3a6293f7-71bd-4b40-b327-0a876042d8b9")
+		)
+		(pin "3"
+			(uuid "94f30b9f-2673-4300-be36-59f05c4658ad")
+		)
+		(pin "2"
+			(uuid "a9405c06-36ab-4d32-b3b2-086af5630a99")
+		)
+		(pin "1"
+			(uuid "a943f0f0-a873-4fd8-9e20-d2250dc8a44a")
+		)
+		(instances
+			(project "ACW_First"
+				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
+					(reference "U1")
 					(unit 1)
 				)
 			)

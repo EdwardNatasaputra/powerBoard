@@ -561,7 +561,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "specctra_dsn": "",
       "step": "",
@@ -699,7 +699,7 @@
         "uuid": "f90a1fa2-4579-4163-be1b-3b1c72ac9515"
       }
     ],
-    "used_designators": "VR1,K1-2,J1-15,Z1,SW1,BT1,H1-4,Q1,F1-6,TR1,TH1-2,L1-6,RV1-3,R1-61,TP1-8,Y1-2,#PWR1-68,PS1-2,C1-63,U1-11,D1-20",
+    "used_designators": "L1-6,RV1-3,TH1-2,TR1,F1-6,Q1,H1-4,BT1,BT101,C1-63,C101-116,D1-20,D101-102,U1-16,U101-108,PS1-2,PS101,#PWR1-74,#PWR101-151,Y1-2,Y101,TP1-8,R1-72,R101-129,VR1,K1-2,J1-21,J101-108,Z1,SW1-2,SW101-102",
     "variants": []
   },
   "sheets": [
@@ -712,8 +712,28 @@
       "Relay"
     ],
     [
+      "b1ee6347-5b28-490c-a137-9ca76f07a51b",
+      "Controller"
+    ],
+    [
+      "c527f136-5c09-4997-bc64-87aee254cec8",
+      "Connector_Sheet"
+    ],
+    [
+      "b1b93fb9-9075-42e9-b467-1451a7a42c90",
+      "Dimm_Circuit"
+    ],
+    [
       "6b23a9b8-0541-4bfc-9432-1d4f8bb4fbef",
       "Power"
+    ],
+    [
+      "ad2de448-dbea-492c-9839-c4aadb648e43",
+      "LDR_Cicruit"
+    ],
+    [
+      "a3602197-e209-4bec-9616-03fcc24cf651",
+      "RTC_Circuit"
     ],
     [
       "12eda807-bac2-4cc9-8a54-0cbb858c2020",

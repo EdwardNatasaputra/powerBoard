@@ -5272,16 +5272,6 @@
 		)
 		(uuid "4c342709-8730-48cb-9f34-93ee71584859")
 	)
-	(label "-24VDC"
-		(at 243.84 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4da28561-ebae-4379-a14b-172546171aea")
-	)
 	(label "5VDC"
 		(at 144.78 106.68 0)
 		(effects
@@ -5402,16 +5392,6 @@
 		)
 		(uuid "b46d8a1c-049b-402e-bf90-d4dd6fc3eb19")
 	)
-	(label "24VDC"
-		(at 243.84 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cae0466b-0624-48d8-b44b-48c0281e590e")
-	)
 	(label "COMP INPUT"
 		(at 228.6 69.85 180)
 		(effects
@@ -5433,8 +5413,19 @@
 		)
 		(uuid "184c648b-164b-44e9-a771-9c279c83a8e4")
 	)
+	(hierarchical_label "-24VDC"
+		(shape output)
+		(at 243.84 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1af5ccd5-9931-4e60-881c-077f636bdcf8")
+	)
 	(hierarchical_label "5VDC"
-		(shape input)
+		(shape output)
 		(at 33.02 73.66 180)
 		(effects
 			(font
@@ -5445,7 +5436,7 @@
 		(uuid "37a81f8b-0f67-434e-adaa-14c76e9bf049")
 	)
 	(hierarchical_label "24VDC"
-		(shape input)
+		(shape output)
 		(at 185.42 69.85 180)
 		(effects
 			(font
@@ -5489,7 +5480,7 @@
 		(uuid "7fbb939d-1385-4f2b-aaa0-fad6ab24c846")
 	)
 	(hierarchical_label "24VDC"
-		(shape input)
+		(shape output)
 		(at 49.53 160.02 180)
 		(effects
 			(font
@@ -5498,6 +5489,17 @@
 			(justify right)
 		)
 		(uuid "8f6a5454-453f-45e1-8930-edcab376a5d8")
+	)
+	(hierarchical_label "24VDC"
+		(shape output)
+		(at 243.84 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b46848ed-a977-4aae-9386-9c6c5429c121")
 	)
 	(hierarchical_label "GND"
 		(shape output)
