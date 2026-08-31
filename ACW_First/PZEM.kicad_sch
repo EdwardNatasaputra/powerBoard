@@ -5102,7 +5102,7 @@
 		(uuid "01e8f4d6-302e-47ad-bfb6-82168b27508c")
 	)
 	(hierarchical_label "N"
-		(shape input)
+		(shape output)
 		(at 21.59 67.31 180)
 		(effects
 			(font
@@ -5135,7 +5135,7 @@
 		(uuid "66d6e28d-b78c-44a1-a1bf-7cb4577dd0e9")
 	)
 	(hierarchical_label "L"
-		(shape input)
+		(shape output)
 		(at 21.59 71.12 180)
 		(effects
 			(font

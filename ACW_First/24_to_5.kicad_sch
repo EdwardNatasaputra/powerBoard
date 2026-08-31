@@ -1918,15 +1918,6 @@
 		(uuid "9b263859-c3f9-4857-bc19-bb2b4c5d0fdc")
 	)
 	(bus_entry
-		(at 247.65 66.04)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03f9d09-98f3-4862-9228-775c384de0d1")
-	)
-	(bus_entry
 		(at 326.39 76.2)
 		(size 2.54 2.54)
 		(stroke
