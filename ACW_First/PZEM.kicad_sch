@@ -2851,12 +2851,6 @@
 		(uuid "0d43d264-7e84-4ad8-bef7-0d3a07dac359")
 	)
 	(junction
-		(at 62.23 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f51c303-154d-4e5d-ad4c-523f178a6941")
-	)
-	(junction
 		(at 77.47 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3053,12 +3047,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9efbf0ee-ee85-4b03-b67d-1dee8a28f4f8")
-	)
-	(junction
-		(at 69.85 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3fb7ba7-9d7a-4b04-85af-6a3d4eeb7dfb")
 	)
 	(junction
 		(at 121.92 119.38)
@@ -4342,16 +4330,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 69.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c1d2108-427b-4c5b-8aab-2e2750180b7c")
-	)
-	(wire
-		(pts
 			(xy 31.75 78.74) (xy 39.37 78.74)
 		)
 		(stroke
@@ -4832,7 +4810,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 63.5) (xy 69.85 71.12)
+			(xy 69.85 63.5) (xy 69.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5514,7 +5492,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 238.76 123.19 270)
+		(at 238.76 123.19 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5524,7 +5503,7 @@
 		(dnp no)
 		(uuid "24cade00-f768-45eb-a17f-64a131b70f0c")
 		(property "Reference" "D12"
-			(at 242.316 123.19 0)
+			(at 235.204 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5534,7 +5513,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 241.3 123.19 0)
+			(at 236.22 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6361,7 +6340,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 60.96 90)
+		(at 232.41 60.96 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6746,85 +6726,6 @@
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/12eda807-bac2-4cc9-8a54-0cbb858c2020"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76f80245-5b7b-43fe-a05f-20edc48c6958")
-		(property "Reference" "R29"
-			(at 66.04 69.342 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "750Ω"
-			(at 66.04 72.898 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 69.342 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c2ea450-8c22-4e66-a644-0dabffad80d9")
-		)
-		(pin "2"
-			(uuid "b4dbb43b-a55e-418f-9bde-ccd4c9b3682a")
-		)
-		(instances
-			(project "ACW_First"
-				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/12eda807-bac2-4cc9-8a54-0cbb858c2020"
-					(reference "R29")
 					(unit 1)
 				)
 			)
