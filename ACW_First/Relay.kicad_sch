@@ -2576,7 +2576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b4f73ab-0a0e-4fac-918d-c04dc5aa66a0")
-		(property "Reference" "F3"
+		(property "Reference" "F1"
 			(at 169.164 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +2640,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "F3")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50dbcb71-2181-419b-9945-f0c84280b2c0")
-		(property "Reference" "RV2"
+		(property "Reference" "RV1"
 			(at 179.07 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,7 +2754,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -2969,7 +2969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58a904a5-da99-4557-8ee3-c9c3100c7b95")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR08"
 			(at 146.05 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3029,7 +3029,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "#PWR037")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "692219f7-4afb-4a37-8143-f2795a8bb3bf")
-		(property "Reference" "R22"
+		(property "Reference" "R3"
 			(at 132.842 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3108,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R22")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c6ebb8e-e40e-4999-b994-2d76ea9e80fd")
-		(property "Reference" "D9"
+		(property "Reference" "D1"
 			(at 145.034 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,7 +3189,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "D9")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3316,7 +3316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0983209-f481-4086-991f-1282c912c7f6")
-		(property "Reference" "C24"
+		(property "Reference" "C1"
 			(at 184.15 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3378,7 +3378,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "C24")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3395,7 +3395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0d0cbbe-84d1-4beb-b1f9-2c7e8e80bacd")
-		(property "Reference" "R21"
+		(property "Reference" "R2"
 			(at 129.54 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,7 +3457,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R21")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3563,7 +3563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3f9f3c2-7783-44d5-9390-217f141c7d26")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR07"
 			(at 88.9 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3623,7 +3623,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "#PWR036")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db5eb4f5-88fb-49f2-aeee-0c22ff72dd62")
-		(property "Reference" "R20"
+		(property "Reference" "R1"
 			(at 99.06 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3702,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R20")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3ee3b62-17de-4104-b878-afdb3a0a3ea9")
-		(property "Reference" "R24"
+		(property "Reference" "R4"
 			(at 185.42 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,7 +3781,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R24")
+					(reference "R4")
 					(unit 1)
 				)
 			)

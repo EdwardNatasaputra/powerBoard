@@ -523,7 +523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "359fd6a0-9205-4ab8-98a3-074b80ec3059")
-		(property "Reference" "J103"
+		(property "Reference" "J11"
 			(at 90.17 67.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -592,7 +592,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/a3bd95dd-9eba-487e-89b9-ed3773b27e7f"
-					(reference "J103")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -610,7 +610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f614fe-b7ce-442c-a947-0b1bec9a8d9f")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR030"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -669,7 +669,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/a3bd95dd-9eba-487e-89b9-ed3773b27e7f"
-					(reference "#PWR0143")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
