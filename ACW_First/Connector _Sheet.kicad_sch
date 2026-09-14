@@ -5,7 +5,7 @@
 	(uuid "4d343f5a-f913-4027-b9cb-99e4b8eee92f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Female"
+		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Female"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -57,11 +57,21 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -90,7 +100,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Female_1_1"
+			(symbol "Conn_01x03_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy -0.508 2.54)
@@ -118,18 +128,6 @@
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -167,18 +165,6 @@
 					(start 0 -3.048)
 					(mid -0.5058 -2.54)
 					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -234,24 +220,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -435,16 +403,6 @@
 		)
 		(uuid "bab41b3e-559c-4bbf-8d95-8d9447ceff7b")
 	)
-	(wire
-		(pts
-			(xy 96.52 62.23) (xy 111.76 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d39755bd-a701-44b3-a7b9-d97000cb9e8c")
-	)
 	(polyline
 		(pts
 			(xy 137.16 54.61) (xy 137.16 78.74)
@@ -464,30 +422,6 @@
 			(type default)
 		)
 		(uuid "f0f1b159-0de0-42f5-b1cf-26f979978be5")
-	)
-	(global_label "5VDC"
-		(shape input)
-		(at 111.76 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3410e1dc-8b95-4e7f-95b5-e8a23aca042c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.5833 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(hierarchical_label "DEBUG_TXD"
 		(shape input)
@@ -510,93 +444,6 @@
 			(justify left)
 		)
 		(uuid "74da2c1f-6ea9-431e-999b-195c9a0209b0")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Female")
-		(at 91.44 67.31 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "359fd6a0-9205-4ab8-98a3-074b80ec3059")
-		(property "Reference" "J11"
-			(at 90.17 67.3101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Female"
-			(at 90.17 64.7701 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 91.44 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06593ea7-0e97-4551-98eb-f11ed033698d")
-		)
-		(pin "2"
-			(uuid "75850484-89a5-4eaf-af0f-6c95dcc85afb")
-		)
-		(pin "3"
-			(uuid "fdd7f8f9-ba18-4378-a574-f0531c4eb5c7")
-		)
-		(pin "4"
-			(uuid "ab19cf52-b20b-42e9-bde3-24bb012352e8")
-		)
-		(instances
-			(project "ACW_First"
-				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/a3bd95dd-9eba-487e-89b9-ed3773b27e7f"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -670,6 +517,89 @@
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/a3bd95dd-9eba-487e-89b9-ed3773b27e7f"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 91.44 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "473a843d-0443-4eec-b955-40f67a02348f")
+		(property "Reference" "J7"
+			(at 92.075 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 92.075 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 91.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 91.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5634faa4-3e33-4d5f-acaa-c79988b9110d")
+		)
+		(pin "3"
+			(uuid "4b61909e-890d-41d1-b9c3-795ce0267958")
+		)
+		(pin "2"
+			(uuid "cefd540f-bb1b-49d4-9163-2a1bf9dcbbf6")
+		)
+		(instances
+			(project "ACW_First"
+				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/a3bd95dd-9eba-487e-89b9-ed3773b27e7f"
+					(reference "J7")
 					(unit 1)
 				)
 			)

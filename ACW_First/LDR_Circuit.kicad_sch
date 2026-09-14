@@ -1591,7 +1591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2567e3de-4b5f-4d7c-9e79-04a3551132e4")
-		(property "Reference" "R45"
+		(property "Reference" "R54"
 			(at 106.68 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,7 +1654,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/2f22a411-ee97-4ccb-b199-dfcbe6fd821e"
-					(reference "R45")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -1750,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "352e9bcf-a5af-4eef-9f3b-47618affba38")
-		(property "Reference" "C37"
+		(property "Reference" "C49"
 			(at 140.97 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,7 +1813,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/2f22a411-ee97-4ccb-b199-dfcbe6fd821e"
-					(reference "C37")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -1908,7 +1908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d2bc99b-d6d4-49fb-bf63-ef4435389ddf")
-		(property "Reference" "R46"
+		(property "Reference" "R9"
 			(at 106.68 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,7 +1971,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/2f22a411-ee97-4ccb-b199-dfcbe6fd821e"
-					(reference "R46")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2144,7 +2144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db16bb82-ec52-41d1-b548-750c24cdbd1d")
-		(property "Reference" "U10"
+		(property "Reference" "U14"
 			(at 189.23 81.661 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +2370,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/2f22a411-ee97-4ccb-b199-dfcbe6fd821e"
-					(reference "U10")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -2388,7 +2388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f37cd4-db09-4b43-ab59-51f289f7963a")
-		(property "Reference" "R47"
+		(property "Reference" "R50"
 			(at 151.13 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2449,7 +2449,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/b1ee6347-5b28-490c-a137-9ca76f07a51b/2f22a411-ee97-4ccb-b199-dfcbe6fd821e"
-					(reference "R47")
+					(reference "R50")
 					(unit 1)
 				)
 			)

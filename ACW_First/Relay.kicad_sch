@@ -2576,7 +2576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b4f73ab-0a0e-4fac-918d-c04dc5aa66a0")
-		(property "Reference" "F1"
+		(property "Reference" "F2"
 			(at 169.164 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +2640,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "F1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50dbcb71-2181-419b-9945-f0c84280b2c0")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 179.07 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,7 +2754,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "RV1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "692219f7-4afb-4a37-8143-f2795a8bb3bf")
-		(property "Reference" "R3"
+		(property "Reference" "R41"
 			(at 132.842 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3108,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R3")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c6ebb8e-e40e-4999-b994-2d76ea9e80fd")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 145.034 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,7 +3189,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3395,7 +3395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0d0cbbe-84d1-4beb-b1f9-2c7e8e80bacd")
-		(property "Reference" "R2"
+		(property "Reference" "R40"
 			(at 129.54 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,7 +3457,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R2")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3475,7 +3475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0350eb0-c826-4b05-8147-e95c06db978f")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 115.57 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "U1")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db5eb4f5-88fb-49f2-aeee-0c22ff72dd62")
-		(property "Reference" "R1"
+		(property "Reference" "R36"
 			(at 99.06 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3702,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R1")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3ee3b62-17de-4104-b878-afdb3a0a3ea9")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 185.42 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,7 +3781,7 @@
 		(instances
 			(project "ACW_First"
 				(path "/f90a1fa2-4579-4163-be1b-3b1c72ac9515/1cc8220c-d861-4212-897b-561f3cc307ea"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
